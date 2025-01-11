@@ -58,6 +58,8 @@ namespace Turbo_Mart
             category_cb.DisplayMember = "CategoryName";
             category_cb.ValueMember = "Id";
 
+            var name = "test";
+
         }
     }
 }

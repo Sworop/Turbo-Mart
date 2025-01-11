@@ -15,7 +15,7 @@ namespace Turbo_Mart.Model
         public string ProductName { get; set; }
         public string BatchNumber { get; set; }
         public float Price { get; set; }
-
+        
         public int CategoryId { get; set; }
         [ForeignKey("CategoryId")]
         public Category Category { get; set; }
